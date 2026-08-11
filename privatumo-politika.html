@@ -62,10 +62,6 @@ strong{color:var(--ink);font-weight:500}
 table{width:100%;border-collapse:collapse;margin:0 0 14px;font-size:14px}
 th,td{text-align:left;padding:11px 14px;border:1px solid var(--line);color:var(--ink-60);vertical-align:top}
 th{background:var(--panel);color:var(--ink);font-weight:500;font-family:var(--display);font-size:13px}
-.fill{color:#ffd08a;background:rgba(255,190,90,.09);border:1px dashed rgba(255,190,90,.4);
-  border-radius:4px;padding:1px 6px;font:400 13px/1.4 var(--mono)}
-.callout{padding:18px 20px;border-radius:12px;background:var(--panel);border:1px solid var(--line);margin:0 0 24px}
-.callout p{margin:0;font-size:13.5px}
 .ftr{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;padding:24px var(--pad);
   font-size:12.5px;color:rgba(226,238,238,.36);border-top:1px solid var(--line-2)}
 .ftr a{color:rgba(226,238,238,.36)}
@@ -92,14 +88,10 @@ th{background:var(--panel);color:var(--ink);font-weight:500;font-family:var(--di
 <main id="doc-lt">
   <span class="eyebrow">Dokumentas</span>
   <h1>Privatumo politika</h1>
-  <p class="upd">Atnaujinta: <span class="fill">[data]</span></p>
-
-  <div class="callout">
-    <p>Šis dokumentas paruoštas kaip pagrindas ir apima tik svetainės formos duomenis. Prieš paleidžiant užpildykite geltonai pažymėtas vietas ir peržiūrėkite tekstą su teisininku, ypač jei rinksite daugiau duomenų nei aprašyta.</p>
-  </div>
+  <p class="upd">Atnaujinta: 2026-08-11</p>
 
   <h2>1. Kas tvarko jūsų duomenis</h2>
-  <p>Duomenų valdytojas — <span class="fill">[įmonės pavadinimas]</span>, juridinio asmens kodas <span class="fill">[kodas]</span>, buveinės adresas <span class="fill">[adresas]</span>, Kaunas, Lietuva. Klausimais dėl duomenų rašykite <span class="fill">[el. paštas]</span>.</p>
+  <p>Duomenų valdytoja — <strong>Julija Virbickaitė</strong>, vykdanti individualią veiklą pagal pažymą Nr. 1537481 ir naudojanti prekės ženklą „MegaProfitAI“. Veiklos vieta — Kaunas, Lietuva. Visais klausimais dėl duomenų rašykite <a href="mailto:megaprofit.ai@gmail.com">megaprofit.ai@gmail.com</a>.</p>
 
   <h2>2. Kokius duomenis renkame</h2>
   <p>Kai užpildote svetainės užklausos formą, gauname:</p>
@@ -131,12 +123,13 @@ th{background:var(--panel);color:var(--ink);font-weight:500;font-family:var(--di
   <p>Duomenų neparduodame ir neperduodame tretiesiems asmenims rinkodaros tikslais. Naudojamės šiais paslaugų teikėjais, kurie veikia kaip duomenų tvarkytojai pagal sutartis su mumis:</p>
   <table>
     <tr><th>Paslaugų teikėjas</th><th>Kam naudojamas</th><th>Vieta</th></tr>
-    <tr><td>Supabase</td><td>Užklausų duomenų bazė</td><td>ES <span class="fill">[patikslinti regioną]</span></td></tr>
-    <tr><td>n8n</td><td>Pranešimų ir vidinių procesų automatizavimas</td><td><span class="fill">[self-hosted ES / n8n Cloud]</span></td></tr>
+    <tr><td>Supabase</td><td>Užklausų duomenų bazė</td><td>ES (Frankfurtas, Vokietija)</td></tr>
+    <tr><td>Nodemation</td><td>Pranešimų ir vidinių procesų automatizavimas</td><td>ES</td></tr>
     <tr><td>Telegram</td><td>Pranešimas apie naują užklausą</td><td>Už EEE ribų</td></tr>
-    <tr><td><span class="fill">[hostingas, pvz. Netlify]</span></td><td>Svetainės talpinimas</td><td><span class="fill">[regionas]</span></td></tr>
+    <tr><td>GitHub Pages (GitHub, Inc.)</td><td>Svetainės talpinimas ir techniniai serverio įrašai</td><td>JAV</td></tr>
+    <tr><td>Namecheap, Inc.</td><td>Domeno registracija ir DNS</td><td>JAV</td></tr>
   </table>
-  <p>Kai duomenys pasiekia paslaugų teikėjus už Europos ekonominės erdvės ribų, perdavimas vyksta remiantis Europos Komisijos patvirtintomis standartinėmis sutarčių sąlygomis.</p>
+  <p>Pačios užklausos saugomos Europos Sąjungoje. Duomenys pasiekia paslaugų teikėjus už Europos ekonominės erdvės ribų dviem atvejais: kai jums apsilankius svetainėje talpinimo serveris užfiksuoja techninius įrašus (IP adresą, naršyklės tipą), ir kai pranešimą apie naują užklausą gauname per Telegram. Abiem atvejais perdavimas vyksta remiantis Europos Komisijos patvirtintomis standartinėmis sutarčių sąlygomis.</p>
 
   <h2>6. Jūsų teisės</h2>
   <p>Jūs turite teisę:</p>
@@ -148,7 +141,7 @@ th{background:var(--panel);color:var(--ink);font-weight:500;font-family:var(--di
     <li>gauti duomenis įprastu, kompiuterio skaitomu formatu;</li>
     <li>bet kada atšaukti sutikimą — tai nedaro neteisėto tvarkymo, vykusio iki atšaukimo.</li>
   </ul>
-  <p>Kreipkitės adresu <span class="fill">[el. paštas]</span>. Atsakome per 30 kalendorinių dienų. Jei manote, kad tvarkome duomenis netinkamai, galite pateikti skundą Valstybinei duomenų apsaugos inspekcijai (<a href="https://vdai.lrv.lt" target="_blank" rel="noopener">vdai.lrv.lt</a>).</p>
+  <p>Kreipkitės adresu <a href="mailto:megaprofit.ai@gmail.com">megaprofit.ai@gmail.com</a>. Atsakome per 30 kalendorinių dienų. Jei manote, kad tvarkome duomenis netinkamai, galite pateikti skundą Valstybinei duomenų apsaugos inspekcijai (<a href="https://vdai.lrv.lt" target="_blank" rel="noopener">vdai.lrv.lt</a>).</p>
 
   <h2>7. Sauga</h2>
   <p>Duomenys perduodami šifruotu ryšiu (HTTPS) ir saugomi duomenų bazėje, kurios turinio negalima perskaityti iš svetainės — prieigą turi tik įgalioti mūsų darbuotojai. Įvykus duomenų saugumo pažeidimui, kuris keltų didelę riziką jūsų teisėms, informuosime jus ir priežiūros instituciją teisės aktų nustatyta tvarka.</p>
@@ -161,14 +154,10 @@ th{background:var(--panel);color:var(--ink);font-weight:500;font-family:var(--di
 <main id="doc-en" hidden>
   <span class="eyebrow">Document</span>
   <h1>Privacy policy</h1>
-  <p class="upd">Last updated: <span class="fill">[date]</span></p>
-
-  <div class="callout">
-    <p>This document is a starting point and covers only data submitted through the website form. Fill in the highlighted fields and have the text reviewed by a lawyer before launch, especially if you collect more data than described here.</p>
-  </div>
+  <p class="upd">Last updated: 11 August 2026</p>
 
   <h2>1. Who processes your data</h2>
-  <p>The data controller is <span class="fill">[company name]</span>, company code <span class="fill">[code]</span>, registered at <span class="fill">[address]</span>, Kaunas, Lithuania. For any data-related questions, write to <span class="fill">[email]</span>.</p>
+  <p>The data controller is <strong>Julija Virbickaitė</strong>, operating as a registered sole trader (individual activity certificate no. 1537481) under the trade name “MegaProfitAI”. Place of business: Kaunas, Lithuania. For any data-related questions, write to <a href="mailto:megaprofit.ai@gmail.com">megaprofit.ai@gmail.com</a>.</p>
 
   <h2>2. What we collect</h2>
   <p>When you fill in the enquiry form, we receive:</p>
@@ -200,12 +189,13 @@ th{background:var(--panel);color:var(--ink);font-weight:500;font-family:var(--di
   <p>We never sell your data or pass it to third parties for marketing. We use the following providers, who act as processors under contracts with us:</p>
   <table>
     <tr><th>Provider</th><th>Used for</th><th>Location</th></tr>
-    <tr><td>Supabase</td><td>Enquiry database</td><td>EU <span class="fill">[confirm region]</span></td></tr>
-    <tr><td>n8n</td><td>Notifications and internal workflow automation</td><td><span class="fill">[self-hosted EU / n8n Cloud]</span></td></tr>
+    <tr><td>Supabase</td><td>Enquiry database</td><td>EU (Frankfurt, Germany)</td></tr>
+    <tr><td>Nodemation</td><td>Notifications and internal workflow automation</td><td>EU</td></tr>
     <tr><td>Telegram</td><td>New enquiry notification</td><td>Outside the EEA</td></tr>
-    <tr><td><span class="fill">[hosting, e.g. Netlify]</span></td><td>Website hosting</td><td><span class="fill">[region]</span></td></tr>
+    <tr><td>GitHub Pages (GitHub, Inc.)</td><td>Website hosting and technical server logs</td><td>USA</td></tr>
+    <tr><td>Namecheap, Inc.</td><td>Domain registration and DNS</td><td>USA</td></tr>
   </table>
-  <p>Where data reaches providers outside the European Economic Area, the transfer relies on the Standard Contractual Clauses approved by the European Commission.</p>
+  <p>Enquiries themselves are stored in the European Union. Data reaches providers outside the European Economic Area in two cases: when the hosting server records technical logs of your visit (IP address, browser type), and when we receive a new enquiry notification via Telegram. In both cases the transfer relies on the Standard Contractual Clauses approved by the European Commission.</p>
 
   <h2>6. Your rights</h2>
   <p>You have the right to:</p>
@@ -217,7 +207,7 @@ th{background:var(--panel);color:var(--ink);font-weight:500;font-family:var(--di
     <li>receive your data in a common, machine-readable format;</li>
     <li>withdraw consent at any time — this does not affect processing carried out before withdrawal.</li>
   </ul>
-  <p>Write to <span class="fill">[email]</span>. We respond within 30 calendar days. If you believe we handle your data improperly, you may lodge a complaint with the State Data Protection Inspectorate of Lithuania (<a href="https://vdai.lrv.lt" target="_blank" rel="noopener">vdai.lrv.lt</a>).</p>
+  <p>Write to <a href="mailto:megaprofit.ai@gmail.com">megaprofit.ai@gmail.com</a>. We respond within 30 calendar days. If you believe we handle your data improperly, you may lodge a complaint with the State Data Protection Inspectorate of Lithuania (<a href="https://vdai.lrv.lt" target="_blank" rel="noopener">vdai.lrv.lt</a>).</p>
 
   <h2>7. Security</h2>
   <p>Data is transmitted over an encrypted connection (HTTPS) and stored in a database whose contents cannot be read from the website — access is limited to authorised staff. Should a breach occur that poses a high risk to your rights, we will notify you and the supervisory authority as required by law.</p>
