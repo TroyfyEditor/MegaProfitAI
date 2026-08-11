@@ -16,7 +16,10 @@
 <meta property="og:image" content="https://megaprofit.ai/og.png">
 <meta name="twitter:card" content="summary_large_image">
 
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23080d0f'/%3E%3Cpath d='M7 22V10l5 7 5-7v12' stroke='%2318c4c4' stroke-width='2.4' fill='none' stroke-linejoin='round' stroke-linecap='round'/%3E%3Ccircle cx='24' cy='12' r='2.4' fill='%2318c4c4'/%3E%3C/svg%3E">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -261,8 +264,8 @@ const CONFIG = {
   // Supabase: Project Settings → API. Abi reikšmės yra viešos ir jas saugu
   // laikyti šiame faile — anon raktą apsaugo RLS politika (žr. setup.sql),
   // kuri leidžia TIK įrašyti naują užklausą, bet ne skaityti esamas.
-  supabaseUrl: "https://ilpwgdfxdcgydbjentuw.supabase.co",          // pvz. "https://abcdefgh.supabase.co"
-  supabaseKey: "sb_publishable_hQn69cQzLUI1Ggsw1WuNQw_X4BQ95nl",          // anon / publishable raktas
+  supabaseUrl: "",          // pvz. "https://abcdefgh.supabase.co"
+  supabaseKey: "",          // anon / publishable raktas
   table: "leads",
 
   // Kai turėsite el. paštą, įrašykite jį čia — jis atsiras klaidos pranešime
