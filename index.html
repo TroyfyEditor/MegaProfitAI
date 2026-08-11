@@ -251,6 +251,7 @@ form .btn[disabled]{opacity:.6;cursor:progress}
 <footer class="ftr">
   <span data-i18n="footer">© 2026 MegaProfitAI · Kaunas, Lietuva</span>
   <span class="ftr-links">
+    <a href="mailto:support@megaprofitai.com">support@megaprofitai.com</a>
     <a href="privatumo-politika.html" data-i18n="privacyLink">Privatumo politika</a>
     <a href="#contact" data-i18n="nav.cta">Konsultacija</a>
   </span>
@@ -268,9 +269,8 @@ const CONFIG = {
   supabaseKey: "",          // anon / publishable raktas
   table: "leads",
 
-  // Kai turėsite el. paštą, įrašykite jį čia — jis atsiras klaidos pranešime
-  // kaip atsarginis kontaktas. Palikus tuščią, jis tiesiog nerodomas.
-  email: "",
+  // Rodomas formos klaidos pranešime kaip atsarginis kontaktas.
+  email: "support@megaprofitai.com",
 
   privacyUrl: "privatumo-politika.html"
 };
@@ -569,6 +569,7 @@ render();
   "@type": "ProfessionalService",
   "name": "MegaProfitAI",
   "description": "Svetainių kūrimas ir AI automatizacijos verslui.",
+  "email": "support@megaprofitai.com",
   "url": "https://megaprofitai.com/",
   "areaServed": "LT",
   "address": { "@type": "PostalAddress", "addressLocality": "Kaunas", "addressCountry": "LT" }
